@@ -1,0 +1,28 @@
+{
+    "name": "CloudSurvey",
+    "description": "",
+    "version": "0.0.1",
+    "main": "./CloudSurvey.js",
+    "author": {
+        "name": "raghav",
+        "email": "munjal.raghav@gmail.com"
+    },
+    "keywords": [],
+    "licenses": {
+        "type": "none"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/YOUR_LOGIN/CloudSurvey.git"
+    },
+    "bugs": {
+        "url": "http://github.com/YOUR_LOGIN/CloudSurvey/issues"
+    },"dependencies": {
+		"express": "latest",
+                "mongojs":"latest",
+		"mongoose": "latest",
+		"body-parser": "latest",
+                "mongoose-auto-increment":"latest",
+                "mapred":"latest","plotly":"latest","ejs": "latest","bcrypt":"latest"
+	}
+}
