@@ -23,7 +23,7 @@ router.use(function (req, res, next) {
 });
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/myapp');
+mongoose.connect(' mongodb://cmpe282:cmpe282@ds053160.mongolab.com:53160/survey');
 // test route to make sure everything is working (accessed at GET http://localhost:8080/api)
 router.get('/barchart/:survey_id/:ques_id', function (req, res) {
   var query = Response.find({
