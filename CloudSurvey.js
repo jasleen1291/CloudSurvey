@@ -21,7 +21,9 @@ router.use(function (req, res, next) {
 
   next(); // make sure we go to the next routes and don't stop here
 });
-
+app.get('/', function (req,res) {
+   res.send('Hello');
+});
 var mongoose = require('mongoose');
 //mongoose.connect('mongodb://localhost/myapp');
 mongoose.connect('mongodb://cmpe282:cmpe282@ds053160.mongolab.com:53160/survey');
